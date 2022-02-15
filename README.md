@@ -4,7 +4,9 @@
 
 ### Purpose
 
-Lousie, a rising playwriter, is in need of $10,000 to create her play Fever. Ahead of her crowdfunding endevour, she would like to get previous crowdfunding projects analyzed in order to better understand what makes crowdfunding projects successful. 
+Lousie, a rising playwriter, is looking to raise $10,000 in order to create her play Fever. Ahead of her crowdfunding endevour, she would like to get previous crowdfunding projects analyzed in order to better understand what makes crowdfunding projects successful. 
+
+The data for 4113 crowdfunding projects were collected and given for analysis. 
 
 ## Analysis and Challenges
 
