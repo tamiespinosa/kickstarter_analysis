@@ -28,7 +28,7 @@ By adding one filter at a time and going from the most encompasing category to t
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-
+<img src="Theater_Outcomes_vs_Launch.png" alt="Theater_Outcomes_vs_Launch">
 
 - What can you conclude about the Outcomes based on Goals?
 
