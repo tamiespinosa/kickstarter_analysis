@@ -32,7 +32,11 @@ By adding one filter at a time and going from the most encompasing category to t
 
 The criteria used to determine whether a project succeded or failed was solely if the pledged  money matched or exceeded the goal. Therefore, projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
 
-Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 117 kickstarter failed play projects in this range, 26% of them raised $1000 or more and would've been succesful if the goal was less. 
+Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 117 kickstarter failed play projects in this range, 26% of them raised $1000 or more and would've been succesful if the goal was less. If Louis' budget was less than $5000, the chance of her kickstarter to meet her goal would be greater. 
+
+It is worth mentioning that once the goal amounts exceed $25,000 the sample size becomes small and therefore the percentage of succesful and failed kikstarter projects are more affected by a single project. The trend becomes more erratic. 
+
+Because not all the play kickstarter projects are being carried in the US, some of the goal and pledged numbers are not measured in USD. Of the 1047 projects, 662 (63%) are measured in USD. The remaining projects are measured in 11 different currencies. If the data is not being measured in the same units, then some of the data points might actually fall under different ranges which might be impact the percentages being shown in the graph. For example Mexican pesos, as of Feb 2022, are worth 20 times less than a USD. Not to mention, culturally plays might be more or less important in certain countries therefore impacting the rate of success.To improve the accuracy of the graph, only US project should be taken into consideration or all of the data should be converted to one currency. 
 
 - What are some limitations of this dataset?
 
