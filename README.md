@@ -12,7 +12,7 @@ This repository contains the analysis of 4113 crowdfunding projects. Excel was u
 
 ### Analysis of Outcomes Based on Launch Date
 
-<img src="Theater_Outcomes_vs_Launch.png" width="70%" alt="Theater_Outcomes_vs_Launch">
+<img src="Theater_Outcomes_vs_Launch.png" width="70%" object-position= center alt="Theater_Outcomes_vs_Launch">
 
 ### Analysis of Outcomes Based on Goals
 
@@ -22,7 +22,7 @@ Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 
 
 It is worth mentioning that once the goal amounts exceed $25,000 the sample size becomes small and therefore the percentage of succesful and failed kikstarter projects are more affected by a single project. The trend becomes more erratic. 
 
-<img src="Outcomes_vs_Goals.png" width="70%" alt="Outcomes_vs_Goals">
+<img src="Outcomes_vs_Goals.png" width="70%" object-position= center alt="Outcomes_vs_Goals">
 
 ### Challenges and Difficulties Encountered
 
