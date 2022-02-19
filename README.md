@@ -13,7 +13,7 @@ This repository contains the analysis of 4113 crowdfunding projects. Excel was u
 ### Analysis of Outcomes Based on Launch Date
 
 <img src="Theater_Outcomes_vs_Launch.png" 
-          "width = "70%" 
+          width = "70%" 
           align= "center" 
           alt="Theater_Outcomes_vs_Launch">
 
