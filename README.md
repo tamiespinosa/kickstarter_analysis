@@ -2,9 +2,9 @@
 
 ## Overview of Project
 
-### Purpose
-
 Lousie, a rising playwriter, is looking to raise $10,000 in order to create her play Fever. Ahead of her crowdfunding endevour, she would like to get previous crowdfunding projects analyzed in order to better understand what makes crowdfunding projects successful. 
+
+### Purpose
 
 This repository contains the analysis of 4113 crowdfunding projects. Excel was used to interpret the gathered data. 
 
@@ -20,17 +20,16 @@ This repository contains the analysis of 4113 crowdfunding projects. Excel was u
 
 ### Analysis of Outcomes Based on Goals
 
-The criteria used to determine whether a project succeded or failed was solely if the pledged  money matched or exceeded the goal. Therefore, projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
+The criteria used to determine whether a project succeded or failed was solely if the pledged money matched or exceeded the goal. Therefore, projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
 
-Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 117 kickstarter failed play projects in this range, 26% of them raised $1000 or more and would've been succesful if the goal was less. Between $15000 and $25000 the rate of failure increases, 
+Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 117 kickstarter failed play projects in this range, 26% of them raised $1000 or more and would've been succesful if the goal was less. Between $15000 and $25000 the rate of failure increases, yet it remains close to 50%. The data sample reduces in size as the price increases. 
 
-It is worth mentioning that once the goal amounts exceed $25,000 the sample size becomes small and therefore the percentage of succesful and failed kikstarter projects are more affected by a single project. The trend becomes more erratic. 
+Once the goal amounts exceed $25,000 the sample size becomes so small that the percentage of succesful and failed kikstarter projects are more affected by a single project. The trend becomes more erratic. 
 
 <p align="center">
 <img src="Outcomes_vs_Goals.png" style = width="70%" alt="Outcomes_vs_Goals">
-
- **Figure 2: Play Outcomes vs Goals**
-</p>
+ </p>
+ <p align="center">**Figure 2: Play Outcomes vs Goals**</p>
 
 ### Challenges and Difficulties Encountered
 
