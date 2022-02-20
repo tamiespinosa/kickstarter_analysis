@@ -26,9 +26,9 @@ The outcomes are measured as "successful", "failed", "cancelled" or "live. The c
 
 ### <a name="AnalysisLaunch"></a>Analysis of Outcomes Based on Launch Date
 
-In this first portion of the data analysis, the number of successful, failed and cancelled projects over the years were charted agaisnt the month they were launched on. 
+In this first portion of the data analysis, the number of successful, failed and cancelled projects over the years were charted against the month they were launched on. 
 
-During the moths of January to April there's a relative stady relationship between the successful and failed projects. The total number of succesful projects exceed the number of failed projects by about 20-30 projects. 
+During the months of January to April there's a relative steady relationship between the successful and failed projects. The total number of succesful projects exceeded the number of failed projects by about 20-30 projects. 
 
 Porjects have greater success when they are launched in the months between May and August, the most successful being the month of May. 
 
@@ -39,10 +39,11 @@ After the summer months the project's success tapers of and the worst month to l
 
 ### <a name="AnalysisGoals"></a>Analysis of Outcomes Based on Goals
  
- In this second portion if the data analysis the percentage of succesful, failed and cancel projects were charted agaisnt the excercise the goals were 
-Given that a project is deemed succesful when the pledged money matches or exceeds the goal, The criteria used to determine whether a project succeded or failed was solely if the pledged money matched or exceeded the goal. Therefore, projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
+In this second portion of the data analysis the succesful, failed and cancel projects were grouped in different goal brackets. The percentage of succesful, failed and canceled project was determined for each goal bracket. 
 
-Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 117 kickstarter failed play projects in this range, 26% of them raised $1000 or more and would've been succesful if the goal was less. Between $15000 and $25000 the rate of failure increases, yet it remains close to 50%. The data sample reduces in size as the price increases. 
+Projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
+
+Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 117 kickstarter failed play projects in this range, 26% of them raised $1000 or more and would've been succesful if the goal was less. Between $15000 and $25000 the rate of failure increases, remaining still close to 50%. The data sample reduces in size as the price increases. 
 
 Once the goal amounts exceed $25,000 the sample size becomes so small that the percentage of succesful and failed kikstarter projects are more affected by a single project. The trend becomes more erratic. 
 
@@ -51,7 +52,7 @@ Once the goal amounts exceed $25,000 the sample size becomes so small that the p
 
 ### <a name="Challenges-Difficulties"></a>Challenges and Difficulties Encountered
 
-The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous numbers due to a typo. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and try to spot the typo there. 
+The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous numbers due to a typo. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and tried to spot the typo there. 
 
 After unsuccessfully trying to find the error, I decided to start from g and verify I was getting the right information in every step. Originally I had started the COUNTIFS formula by specifying the Goal ranges, which made the formula visually difficult to debug. When I started from scratch, I began by filtering the subcategory column first by "plays". Since that filter was needed in all the cells, copied the formula to all the cells. Then I applied the column filtering of successful, failed and canceled to the respectives cells in the columns. Only at the end I applied the row filtering of ranges in the COUNTIFS formula.
 
