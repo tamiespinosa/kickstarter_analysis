@@ -91,3 +91,9 @@ All of the theater projects that gathered more than $10,000 should be analyzed s
 
 
 ## <a name="references"></a> References
+
+
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki
+https://simplernerd.com/md-align-images/
+
