@@ -22,6 +22,8 @@ This repository contains the analysis of 4113 crowdfunding projects. Excel was u
 
 ### <a name="AnalysisLaunch"></a>Analysis of Outcomes Based on Launch Date
 
+The number of succesful kickstarter projects peak when they are launched between the months of April and August. 
+
 <p align="center"> <img src="Theater_Outcomes_vs_Launch.png" width ="70%" alt="Theater_Outcomes_vs_Launch"> </p>
 <p align="center"> Figure 1: Theater Outcomes vs Launch Date</p> 
 
@@ -56,14 +58,14 @@ By adding one filter at a time and going from the most encompasing category to t
 
  If Louis' budget was less than $5000, the chance of her kickstarter to meet her goal would be greater. 
 
-
-
-Because not all the play kickstarter projects are being carried in the US, some of the goal and pledged numbers are not measured in USD. Of the 1047 projects, 662 (63%) are measured in USD. The remaining projects are measured in 11 different currencies. If the data is not being measured in the same units, then some of the data points might actually fall under different ranges which might be impact the percentages being shown in the graph. For example Mexican pesos, as of Feb 2022, are worth 20 times less than a USD. Not to mention, culturally plays might be more or less important in certain countries therefore impacting the rate of success. To improve the accuracy of the graph, only US project should be taken into consideration or all of the data should be converted to one currency. 
+Because not all the play kickstarter projects are being carried in the US, some of the goal and pledged numbers are not measured in USD. Of the 1047 projects, 662 (63%) are measured in USD. The remaining projects are measured in 11 different currencies. If the data is not being measured in the same units, then some of the data points might actually fall under different ranges and the percentage shown in Figure 2 might be incorrect. For example Mexican pesos, as of Feb 2022, are worth 20 times less than a USD. Not to mention, culturally plays might be more or less important in certain countries therefore impacting the rate of success. To improve the accuracy of the analysis only US projects should be taken into consideration or all of the data should be converted to one currency. 
 
 - What are some limitations of this dataset?
 
 
 
 - What are some other possible tables and/or graphs that we could create?
+To gain better understanding on how to successfully launch a kickstarter, the dutation of the kickstarter should be compared to its rate of success. 
+
 
 ## <a name="references"></a> References
