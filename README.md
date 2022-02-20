@@ -66,19 +66,23 @@ The best month to launch a kickstarted project is May and the worst is December.
 
 - What can you conclude about the Outcomes based on Goals?
 
-If Louis' reduced her budget to less than $5000, the chance of her kickstarter to meet her goal would be greater. 
-
-
+If Louis reduced her budget to less than $5000, the chance of her kickstarter to meet her goal would be greater. More modest budgets tend to be more succesful and their success decreases as the goals increase. But once the goals exceed $25,000 the sample size becomes too small and therefore there's not a clear trend passed this goal. 
 
 - What are some limitations of this dataset?
 
 Because not all the play kickstarter projects are being carried in the US, some of the goal and pledged numbers are not measured in USD. Of the 1047 projects, 662 (63%) are measured in USD. The remaining projects are measured in 11 different currencies. If the data is not being measured in the same units, then some of the data points might actually fall under different ranges and the percentage shown in Figure 2 might be incorrect. For example Mexican pesos, as of Feb 2022, are worth 20 times less than a USD. To improve the accuracy of the analysis only US projects should be taken into consideration or all of the data should be converted to one currency. 
 
+The sample size drops as the goals increase.
+
+Success and failure are only measures of the pledged number meeting the goal. There could be failed projects that raised more than $10,000 yet didn't meet their goal and those would be grouped with projects that raised $0. The analysis performed on this charts are counting the number of failures / successes to perform the analysis. Yet the failed projects could be better understood with what percentage of it was funded.
+
 - What are some other possible tables and/or graphs that we could create?
-To gain better understanding on how to successfully launch a kickstarter, the dutation of the kickstarter should be compared to its rate of success. 
 
-All of the theater projects that gathered more than $10,000 should be analyzed separately.  
+Chart with the percentage funded column would tell a clearer story of what happened to the projects rather than the binary success or failure categories.   
 
+The duration of the kickstarter campaings should be compared to its rate of success. For instance, if some of the kickstarters launched in May tended to have longer campaign durations than the December campaings, that could explain why they tend to be more succesful. 
+
+All of the theater projects that gathered more than $10,000 should be analyzed separately, regardless of their goal. Finding what these projects have in common could be benefitial for Louis. 
 
 
 
