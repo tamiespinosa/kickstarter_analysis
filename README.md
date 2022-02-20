@@ -52,11 +52,15 @@ Once the goal amounts exceed $25,000 the sample size becomes so small that the p
 
 ### <a name="Challenges-Difficulties"></a>Challenges and Difficulties Encountered
 
-The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous numbers due to a typo. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and tried to spot the typo there. 
+The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous numbers due to a typo. Here are some of the troubleshooting steps I took: 
 
-After unsuccessfully trying to find the error, I decided to start from g and verify I was getting the right information in every step. Originally I had started the COUNTIFS formula by specifying the Goal ranges, which made the formula visually difficult to debug. When I started from scratch, I began by filtering the subcategory column first by "plays". Since that filter was needed in all the cells, copied the formula to all the cells. Then I applied the column filtering of successful, failed and canceled to the respectives cells in the columns. Only at the end I applied the row filtering of ranges in the COUNTIFS formula.
+- 1. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and tried to spot the typo there. This proved to be unsuccesful.
+- 2. I re-wrote the COUNTIFs formula from scratch and re-arranged so it will filter from the broadest category to the more specific category.
+* =COUNTIFS(Kickstarter!$R:$R,"plays")
+* =COUNTIFS(Kickstarter!$R:$R,"plays",Kickstarter!$F:$F,"successful")
+* =COUNTIFS(Kickstarter!$R:$R,"plays",Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=50000")
+- 3. For each filtering step of the COUNTIFS formula, I validated the data by filtering the Kickstarter data and selecting cells and checking the cell count. This allowed me to validate my data step by step. 
 
-By adding one filter at a time and going from the most encompasing category to the more specific category, I was able to ensure that there were no typos in the earlier part of the formula. This allowed me to validate my data step by step. 
 
 ## <a name="results"></a>Results
 
@@ -72,7 +76,7 @@ If Louis reduced her budget to less than $5000, the chance of her kickstarter to
 
 Because not all the play kickstarter projects are being carried in the US, some of the goal and pledged numbers are not measured in USD. Of the 1047 projects, 662 (63%) are measured in USD. The remaining projects are measured in 11 different currencies. If the data is not being measured in the same units, then some of the data points might actually fall under different ranges and the percentage shown in Figure 2 might be incorrect. For example Mexican pesos, as of Feb 2022, are worth 20 times less than a USD. To improve the accuracy of the analysis only US projects should be taken into consideration or all of the data should be converted to one currency. 
 
-The sample size drops as the goals increase.
+The sample size drops as the goals increase, making trends less accurate for the bigger goals.
 
 Success and failure are only measures of the pledged number meeting the goal. There could be failed projects that raised more than $10,000 yet didn't meet their goal and those would be grouped with projects that raised $0. The analysis performed on this charts are counting the number of failures / successes to perform the analysis. Yet the failed projects could be better understood with what percentage of it was funded.
 
