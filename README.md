@@ -62,24 +62,22 @@ By adding one filter at a time and going from the most encompasing category to t
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-
+The best month to launch a kickstarted project is May and the worst is December. Yet it is worth mentioning that this clear data trend is formed when compiling the number of projects per month for all the years. When looking at individual years, there is no clear trend as to which months are more successful. The trends for individual years can be looked at by opening the excel file, going to the Theater Outcomes by Launch Date Tab and using the year filter to select individual years. 
 
 - What can you conclude about the Outcomes based on Goals?
 
+If Louis' reduced her budget to less than $5000, the chance of her kickstarter to meet her goal would be greater. 
 
 
- If Louis' budget was less than $5000, the chance of her kickstarter to meet her goal would be greater. 
-
-Because not all the play kickstarter projects are being carried in the US, some of the goal and pledged numbers are not measured in USD. Of the 1047 projects, 662 (63%) are measured in USD. The remaining projects are measured in 11 different currencies. If the data is not being measured in the same units, then some of the data points might actually fall under different ranges and the percentage shown in Figure 2 might be incorrect. For example Mexican pesos, as of Feb 2022, are worth 20 times less than a USD. Not to mention, culturally plays might be more or less important in certain countries therefore impacting the rate of success. To improve the accuracy of the analysis only US projects should be taken into consideration or all of the data should be converted to one currency. 
 
 - What are some limitations of this dataset?
 
-All of the crowdfunding projects should be set to a common currency. 
+Because not all the play kickstarter projects are being carried in the US, some of the goal and pledged numbers are not measured in USD. Of the 1047 projects, 662 (63%) are measured in USD. The remaining projects are measured in 11 different currencies. If the data is not being measured in the same units, then some of the data points might actually fall under different ranges and the percentage shown in Figure 2 might be incorrect. For example Mexican pesos, as of Feb 2022, are worth 20 times less than a USD. To improve the accuracy of the analysis only US projects should be taken into consideration or all of the data should be converted to one currency. 
 
 - What are some other possible tables and/or graphs that we could create?
 To gain better understanding on how to successfully launch a kickstarter, the dutation of the kickstarter should be compared to its rate of success. 
 
-
+All of the theater projects that gathered more than $10,000 should be analyzed separately.  
 
 
 
