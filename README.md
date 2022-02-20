@@ -16,9 +16,11 @@ Lousie, a rising playwriter, is looking to raise $10,000 in order to create her 
 
 ### <a name="purpose"></a>Purpose
 
-The purpose of this repository is to analyze the rate of success of theater crowdfunding projects, more specifically plays, based on their launch date and on their set goals. This repository contains the analysis of 4113 crowdfunding projects. Excel was used to interpret the gathered data. 
+The purpose of this repository is to analyze the rate of success of theater crowdfunding projects, more specifically plays, based on their launch date and on their set goals.  
 
 ## <a name="Analysis-Challenges"></a>Analysis and Challenges
+
+This repository contains the analysis of 1369 theater crowdfunding projects, 1066 of which were for plays, from 19 countries. The crowdfunding data was gathered from 2009 to 2017. Excel was used to interpret the gathered data.
 
 ### <a name="AnalysisLaunch"></a>Analysis of Outcomes Based on Launch Date
 
