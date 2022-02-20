@@ -16,7 +16,7 @@ Lousie, a rising playwriter, is looking to raise $10,000 in order to create her 
 
 ### <a name="purpose"></a>Purpose
 
-This repository contains the analysis of 4113 crowdfunding projects. Excel was used to interpret the gathered data. 
+The purpose of this repository is to analyze the rate of success of theater crowdfunding projects, more specifically plays, based on their launch date and on their set goals. This repository contains the analysis of 4113 crowdfunding projects. Excel was used to interpret the gathered data. 
 
 ## <a name="Analysis-Challenges"></a>Analysis and Challenges
 
@@ -62,10 +62,14 @@ Because not all the play kickstarter projects are being carried in the US, some 
 
 - What are some limitations of this dataset?
 
-
+All of the crowdfunding projects should be set to a common currency. 
 
 - What are some other possible tables and/or graphs that we could create?
 To gain better understanding on how to successfully launch a kickstarter, the dutation of the kickstarter should be compared to its rate of success. 
+
+
+
+
 
 
 ## <a name="references"></a> References
