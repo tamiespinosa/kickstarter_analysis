@@ -1,16 +1,26 @@
 # Kickstarting with Excel
 
-## Overview of Project
+## Table of Contents
+- [Overview of Project](#OverviewProject)
+  * [Purpose](#purpose)
+- [Analysis and Challenges](#Analysis-Challenges)
+  * [Analysis of Outcomes Based on Launch Date](#AnalysisLaunch)
+  * [Analysis of Outcomes Based on Goals](#AnalysisGoals)
+  * [Challenges and Difficulties](#Challenges-Difficulties)
+- [Results](#Results)
+- [References](#References)
+ 
+## <a name="OverviewProject"></a>Overview of Project
 
 Lousie, a rising playwriter, is looking to raise $10,000 in order to create her play Fever. Ahead of her crowdfunding endevour, she would like to get previous crowdfunding projects analyzed in order to better understand what makes crowdfunding projects successful. 
 
-### Purpose
+### <a name="purpose"></a>Purpose
 
 This repository contains the analysis of 4113 crowdfunding projects. Excel was used to interpret the gathered data. 
 
-## Analysis and Challenges
+## <a name="Analysis-Challenges"></a>Analysis and Challenges
 
-### Analysis of Outcomes Based on Launch Date
+### <a name="AnalysisLaunch"></a>Analysis of Outcomes Based on Launch Date
 
 <p align="center">
 <img src="Theater_Outcomes_vs_Launch.png" width ="70%" alt="Theater_Outcomes_vs_Launch">
@@ -18,7 +28,7 @@ This repository contains the analysis of 4113 crowdfunding projects. Excel was u
  <em1> Figure 1: Theater Outcomes vs Launch Date</em1>        
 </p>
 
-### Analysis of Outcomes Based on Goals
+### <a name="AnalysisGoals"></a>Analysis of Outcomes Based on Goals
 
 The criteria used to determine whether a project succeded or failed was solely if the pledged money matched or exceeded the goal. Therefore, projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
 
@@ -32,7 +42,7 @@ Once the goal amounts exceed $25,000 the sample size becomes so small that the p
  <em2>Figure 2: Play Outcomes vs Goals</em2>
  </p>
 
-### Challenges and Difficulties Encountered
+### <a name="Challenges-Difficulties"></a>Challenges and Difficulties Encountered
 
 The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous numbers due to a typo. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and try to spot the typo there. 
 
@@ -40,7 +50,7 @@ After unsuccessfully trying to find the error, I decided to start from g and ver
 
 By adding one filter at a time and going from the most encompasing category to the more specific category, I was able to ensure that there were no typos in the earlier part of the formula. This allowed me to validate my data step by step. 
 
-## Results
+## <a name="results"></a>Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
@@ -61,3 +71,5 @@ Because not all the play kickstarter projects are being carried in the US, some 
 
 
 - What are some other possible tables and/or graphs that we could create?
+
+## <a name="references"></a> References
