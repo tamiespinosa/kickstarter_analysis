@@ -14,6 +14,7 @@ This repository contains the analysis of 4113 crowdfunding projects. Excel was u
 
 <p align="center">
 <img src="Theater_Outcomes_vs_Launch.png" width ="70%" alt="Theater_Outcomes_vs_Launch">
+
  <em1> Figure 1: Theater Outcomes vs Launch Date</em1>        
 </p>
 
@@ -27,6 +28,7 @@ Once the goal amounts exceed $25,000 the sample size becomes so small that the p
 
 <p align="center">
 <img src="Outcomes_vs_Goals.png" width="70%" alt="Outcomes_vs_Goals">
+
  <em2>Figure 2: Play Outcomes vs Goals</em2>
  </p>
 
