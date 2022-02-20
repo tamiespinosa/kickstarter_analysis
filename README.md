@@ -35,6 +35,7 @@ Once the goal amounts exceed $25,000 the sample size becomes so small that the p
 
 <p align="center"> <img src="Outcomes_vs_Goals.png" width="70%" alt="Outcomes_vs_Goals"> </p>
 <p align="center">Figure 2: Play Outcomes vs Goals</p>
+
 ### <a name="Challenges-Difficulties"></a>Challenges and Difficulties Encountered
 
 The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous numbers due to a typo. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and try to spot the typo there. 
