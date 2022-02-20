@@ -20,18 +20,27 @@ The purpose of this repository is to analyze the rate of success of theater crow
 
 ## <a name="Analysis-Challenges"></a>Analysis and Challenges
 
-This repository contains the analysis of 1369 theater crowdfunding projects, 1066 of which were for plays. The projects were carried out in 19 different countries from 2009 to 2017. Excel was used to interpret the gathered data.
+This repository contains the analysis of 1369 theater crowdfunding projects, 1066 of which were for plays. The projects were carried out in 19 different countries from 2009 to 2017. Excel was used to interpret the gathered data. 
+
+The outcomes are measured as "successful", "failed", "cancelled" or "live. The criteria used to determine whether a project succeded or failed was solely if the pledged money matched or exceeded the goal. This analysis will be playing closer attention to the relationship between successful and failed projects to their launch date and set goals. 
 
 ### <a name="AnalysisLaunch"></a>Analysis of Outcomes Based on Launch Date
 
-The number of succesful kickstarter projects peak when they are launched between the months of April and August. 
+In this first portion of the data analysis, the number of successful, failed and cancelled projects over the years were charted agaisnt the month they were launched on. 
+
+During the moths of January to April there's a relative stady relationship between the successful and failed projects. The total number of succesful projects exceed the number of failed projects by about 20-30 projects. 
+
+Porjects have greater success when they are launched in the months between May and August, the most successful being the month of May. 
+
+After the summer months the project's success tapers of and the worst month to launch a project is December. 
 
 <p align="center"> <img src="Theater_Outcomes_vs_Launch.png" width ="70%" alt="Theater_Outcomes_vs_Launch"> </p>
 <p align="center"> Figure 1: Theater Outcomes vs Launch Date</p> 
 
 ### <a name="AnalysisGoals"></a>Analysis of Outcomes Based on Goals
-
-The criteria used to determine whether a project succeded or failed was solely if the pledged money matched or exceeded the goal. Therefore, projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
+ 
+ In this second portion if the data analysis the percentage of succesful, failed and cancel projects were charted agaisnt the excercise the goals were 
+Given that a project is deemed succesful when the pledged money matches or exceeds the goal, The criteria used to determine whether a project succeded or failed was solely if the pledged money matched or exceeded the goal. Therefore, projects with more modest goals tend to be be more successful. Of the 1047 kickstarter projects for plays, 720 (69%) of them had a goal to raise under $5000. Projects with goals of less than $1000 had 76% of success and projects between $1000 and $4999 had 72% of success.  
 
 Between $5000 and $15000 the rate of success dropped to around 55%. Yet, of the 117 kickstarter failed play projects in this range, 26% of them raised $1000 or more and would've been succesful if the goal was less. Between $15000 and $25000 the rate of failure increases, yet it remains close to 50%. The data sample reduces in size as the price increases. 
 
