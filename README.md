@@ -20,7 +20,7 @@ The purpose of this repository is to analyze the rate of success of theater crow
 
 ## <a name="Analysis-Challenges"></a>Analysis and Challenges
 
-This repository contains the analysis of 1369 theater crowdfunding projects, 1066 of which were for plays, from 19 countries. The crowdfunding data was gathered from 2009 to 2017. Excel was used to interpret the gathered data.
+This repository contains the analysis of 1369 theater crowdfunding projects, 1066 of which were for plays. The projects were carried out in 19 different countries from 2009 to 2017. Excel was used to interpret the gathered data.
 
 ### <a name="AnalysisLaunch"></a>Analysis of Outcomes Based on Launch Date
 
