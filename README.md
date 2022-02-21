@@ -66,7 +66,7 @@ The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-The best month to launch a kickstarted project is May and the worst is December. Yet it is worth mentioning that this clear data trend is formed when compiling the number of projects per month for all the years. When looking at individual years, there is no clear trend as to which months are more successful. The trends for individual years can be looked at by opening the excel file, going to the Theater Outcomes by Launch Date Tab and using the year filter to select individual years. 
+The best month to launch a kickstarted project is May and the worst is December. Yet it is worth mentioning that this clear data trend is formed when compiling the number of projects per month for all the years. When looking at individual years, there is no clear trend as to which months are more successful. The trends for individual years can be looked at by opening the excel file, going to the Theater Outcomes by Launch Date Tab and using the year filter to select individual years. [[1]](1)
 
 - What can you conclude about the Outcomes based on Goals?
 
