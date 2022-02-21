@@ -92,7 +92,7 @@ All of the theater projects that gathered more than $10,000 should be analyzed s
 
 ## <a name="references"></a> References
 
-[^1] [Kickstarter Excel File](https://github.com/tamiespinosa/kickstarter_analysis/blob/e26e0ef2c449aa822603aa83c081b16cdf17af48/Kickstarter_Challenge.zip)
+[^1]: [Kickstarter Excel File](https://github.com/tamiespinosa/kickstarter_analysis/blob/e26e0ef2c449aa822603aa83c081b16cdf17af48/Kickstarter_Challenge.zip)
 
 [2] https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
