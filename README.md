@@ -94,9 +94,9 @@ All of the theater projects that gathered more than $10,000 should be analyzed s
 
 [^1]: [Kickstarter Excel File](https://github.com/tamiespinosa/kickstarter_analysis/blob/e26e0ef2c449aa822603aa83c081b16cdf17af48/Kickstarter_Challenge.zip)
 
-[2] https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[^2]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-[3] https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki
+[^3]: https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki
 
-[4] https://simplernerd.com/md-align-images/
+[^4]: https://simplernerd.com/md-align-images/
 
