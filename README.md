@@ -54,13 +54,21 @@ Once the goal amounts exceed $25,000 the sample size becomes so small that the p
 
 The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous numbers due to a typo. Here are some of the troubleshooting steps I took: 
 
-- 1. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and tried to spot the typo there. This proved to be unsuccesful.
-- 2. I re-wrote the COUNTIFs formula from scratch and re-arranged so it will filter from the broadest category to the more specific category.
-* =COUNTIFS(Kickstarter!$R:$R,"plays")
-* =COUNTIFS(Kickstarter!$R:$R,"plays",Kickstarter!$F:$F,"successful")
-* =COUNTIFS(Kickstarter!$R:$R,"plays",Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=50000")
-- 3. For each filtering step of the COUNTIFS formula, I validated the data by filtering the Kickstarter data and selecting cells and checking the cell count. This allowed me to validate my data step by step. 
+1. I used the "Show Formulas" button under the Formula Tab to be able to see the formulas in the table, and tried to spot the typo there. This proved to be unsuccesful.
 
+2. I re-wrote the COUNTIFs formula from scratch and re-arranged so it will filter from the broadest category to the more specific category.
+ 
+   - I wrote the below COUNTIF Formula, and copy pasted this formula to all cells
+     * =COUNTIFS(Kickstarter!$R:$R,"plays")
+     * I validated the data by filtering the Kickstarter data to only plays, and then selected cells of one column and looked at the cell count. 
+   
+   - I wrote the below COUNTIF Formula, and copy pasted this formula to all cells under the succesful column.
+     * =COUNTIFS(Kickstarter!$R:$R,"plays",Kickstarter!$F:$F,"successful")
+     * I validated the data by filtering the Kickstarter data to only succesful plays, and then selected cells of one column and looked at the cell count. 
+     * I repeated this for outcomes failed and canceled.
+
+   - I wrote the below COUNTIF Formula and applied 
+     * =COUNTIFS(Kickstarter!$R:$R,"plays",Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=50000")
 
 ## <a name="results"></a>Results
 
