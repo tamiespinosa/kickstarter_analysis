@@ -66,7 +66,7 @@ The COUNTIFS formula used in the Outcomes Based on Goals sheet gave me erroneous
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-The best month to launch a kickstarted project is May and the worst is December. Yet it is worth mentioning that this clear data trend is formed when compiling the number of projects per month for all the years. When looking at individual years, there is no clear trend as to which months are more successful. The trends for individual years can be looked at by opening the excel file, going to the Theater Outcomes by Launch Date Tab and using the year filter to select individual years. [^1]
+The best month to launch a kickstarted project is May and the worst is December. Yet it is worth mentioning that this clear data trend is formed when compiling the number of projects per month for all the years. When looking at individual years, there is no clear trend as to which months are more successful. The trends for individual years can be looked at by opening the excel file, going to the Theater Outcomes by Launch Date Tab and using the year filter to select individual years. [[1]](#1)
 
 - What can you conclude about the Outcomes based on Goals?
 
@@ -92,11 +92,11 @@ All of the theater projects that gathered more than $10,000 should be analyzed s
 
 ## <a name="references"></a> References
 
-[^1]: [Kickstarter Excel File](https://github.com/tamiespinosa/kickstarter_analysis/blob/e26e0ef2c449aa822603aa83c081b16cdf17af48/Kickstarter_Challenge.zip)
+<a name="1">[1]</a> [Kickstarter Excel File](https://github.com/tamiespinosa/kickstarter_analysis/blob/e26e0ef2c449aa822603aa83c081b16cdf17af48/Kickstarter_Challenge.zip)
 
-[^2]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+[2] https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
-[^3]: https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki
+[3] https://stackoverflow.com/questions/18244417/how-do-i-create-some-kind-of-table-of-content-in-github-wiki
 
-[^4]: https://simplernerd.com/md-align-images/
+[4] https://simplernerd.com/md-align-images/
 
